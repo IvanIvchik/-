@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вакансии</title>
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <nav id="topMenu">
+            <div id='logo'>
+                <a href="index.html"> <img src="logo.png" alt="ЗАО Идея банк"></a>
+            </div>
+
+            <div id="bottonsMenu">
+                <ul>
+                    <li><a href="">Частным клиентан <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li><a href="">Бизнесу <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <div id="bottonMenuRight">
+                <a href=""><i class="fa fa-mobile" aria-hidden="true"></i> 7555 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            </div>
+        </nav>
+        <div id="advertisingBlock">
+            <img src="adverstising.jpg" alt="здесь могла быть ваша реклама">
+        </div>
+    </header>
+
+    <main>
+
+        <div id="navigationMenu">
+            <ul>
+                <li><a href="">Главная</a></li>
+                <li><i class="fa fa-caret-left" aria-hidden="true"></i></li>
+                <li><a href="">О банке</a></li>
+                <li><i class="fa fa-caret-left" aria-hidden="true"></i></li>
+                <li><a href="">Работа в банке</a></li>
+                <li><i class="fa fa-caret-left" aria-hidden="true"></i></li>
+                <li><a href="">Вакансии</a></li>
+                <li><i class="fa fa-caret-left" aria-hidden="true"></i></li>
+                <li><a href="">Специалист по работе с персоналом</a></li>
+                <li><i class="fa fa-caret-left" aria-hidden="true"></i></li>
+                <li><a id="active" href="">Тест</a></li>
+            </ul>
+        </div>
+
+
+        <article id="test">
+
+            <div id="testTitle">
+                <h2>Тест для специалиста по работе с персоналом</h1>
+            </div>
+            <form>
+                <div class="columnTest">
+                    <h4>
+                        Какую пользу приносят HR-компании?
+                    </h4>
+                    <label>
+                    <input type="radio" name="benefitHR" value="contracts">Они рассчитывают графики отпусков, 
+                    оформляют больничные и составляют трудовые договоры.</label><br>
+                    <br>
+                    <label>
+                    <input type="radio" name="benefitHR" value="cadres">Эйчары ведут все делопроизводство, 
+                    связанное с кадрами, трудоустраивают достойных специалистов и избавляются от плохих работников.</label><br>
+                    <br>
+                    <label>
+                    <input type="radio" name="benefitHR" value="humanResources">HR-менеджеры занимаются всеми процессами, 
+                    связанными с человеческими ресурсами в компании, для достижения глобальных и стратегических целей бизнеса.</label><br>
+
+                </div>
+
+                <div class="columnTest">
+                    <h4>
+                        Нужно оценить кандидата на вакансию в компании – какой метод будешь использовать?
+                    </h4>
+                    <label>
+                    <input type="radio" name="assessment" value="lowSalary">
+                    Выберу соискателя, который претендует на самую маленькую зарплату. Сами всему научим.</label><br>
+                    <br>
+                    <label>
+                    <input type="radio" name="assessment" value="appearance">Определю своего кандидата по внешности: если человек следит 
+                    за собой, отличается хорошим вкусом в одежде, он и в работе должен быть аккуратен и пунктуален.</label><br>
+                    <br>
+                    <label>
+                    <input type="radio" name="assessment" value="confidence">В первую очередь, кандидат должен быть уверен в себе, 
+                    уметь презентовать себя, уметь выкрутиться из любого каверзного вопроса.</label><br>
+                    <br>
+                    <label>
+                    <input type="radio" name="assessment" value="experience">Мне важны опыт и умения, поэтому вначале я оцениваю 
+                    человека с помощью профессиональных тестов и кейсов, а потом дополняю эти методы интервью по компетенциям.</label><br>
+                </div>
+
+                <div class="columnTest">
+                    <h4>
+                        Как сделать так, чтобы сотрудники ходили на работу с радостью?
+                    </h4>
+                    <label>
+                    <input type="radio" name="mood" value="fines">
+                    Можно попробовать ввести штрафы за унылое выражение лица или нытьё.</label><br>
+                    <br>
+                    <label>
+                    <input type="radio" name="mood" value="events">Провести мероприятия по командообразованию – это весело, 
+                    и к тому же объединяет коллектив!</label><br>
+                    <br>
+                    <label>
+                    <input type="radio" name="mood" value="comfort">
+                    Сделать удобными рабочие места, организовать зоны для отдыха, проработать социальный пакет,
+                    предоставить возможность роста и обучения.</label><br>
+                    <br>
+                    <label>
+                    <input type="radio" name="mood" value="dressCode">Назначить «оранжевый» или «желтый» дресс-код – пусть ходят на работу 
+                    в этих цветах, ведь они поднимают настроение.</label><br>
+                </div>
+
+                <div class="columnTest">
+                    <h4>
+                        Какой подход к обучению сотрудников наименее эффективен?
+                    </h4>
+                    <label>
+                     <input type="radio" name="lessEfficient" value="uneducated">Обучение сотрудников – забота самих сотрудников.
+                    </label><br>
+                    <br><label>
+                    <input type="radio" name="lessEfficient" value="training"> Организация онлайн-обучения, вебинаров, покупка интернет-курсов, 
+                        оплата участия в конференциях.</label><br>
+                    <br>
+                    <label>
+                    <input type="radio" name="lessEfficient" value="internship"> Наставничество, стажировки, обмен опытом.</label><br>
+                    <br>
+                    <label>
+                    <input type="radio" name="lessEfficient" value="externalTrainers">Приглашение для проведения групповых занятий внешних тренеров, 
+                    экспертов отрасли.</label><br>
+                    <br>
+                </div>
+                <input type="submit" value="Отправить">
+            </form>
+
+        </article>
+
+        <div id="linkToInterview">
+            <h3>Ссылка для записи на видеоинтервью:</h3>
+
+            <a href="https://www.skype.com/ru//faq/FA34803">Привет!</a>
+        </div>
+
+        <div id="chatBot">
+
+            <h4>ЧАТ - БОТ</h4>
+
+            <div id="closser" onclick="rollUpChat()">
+                <i class="fa fa-window-minimize" aria-hidden="true"></i>
+            </div>
+
+            <form>
+                <label for="qvacancy"></label><br>
+                <input type="text" id="qvacancy" name="qvacancy" placeholder="Вопрос по вакансии">
+                <label for="qtest"></label><br>
+                <input type="text" id="qtest" name="qtest" placeholder="Вопрос по тесту">
+                <label for="interview"></label><br>
+                <input type="text" id="interview" name="interview" placeholder="Запись на интервью">
+                <input id=buttonBot type="submit" value="Отправить">
+            </form>
+        </div>
+
+        <div id="stringChatBot">
+            <h4>ЧАТ - БОТ</h4>
+
+            <div id="opening" onclick="openChat()">
+                <i class="fa fa-window-maximize" aria-hidden="true"></i>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <h4>Частным клиентам</h4>
+
+            <ul>
+                <li><a href="">Онлайн-банк</a></li>
+                <li><a href="">Кредиты</a></li>
+                <li><a href="">Вклады</a></li>
+                <li><a href="">Карточки</a></li>
+                <li><a href="">Переход на IBAN</a></li>
+                <li><a href="">Безопасность</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <h4>Бизнесу</h4>
+            <ul>
+                <li><a href="">Интернет-банк</a></li>
+                <li><a href="">Кредиты</a></li>
+                <li><a href="">Вклады</a></li>
+                <li><a href="">Покупка-продажи валют</a></li>
+                <li><a href="">РКО</a></li>
+                <li><a href="">Переход на IBAN</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <a id="heading" href="">О Банке</a>
+            <ul>
+                <li><a href="">Отделения банка</a></li>
+                <li><a href="">Раскрытие информации</a></li>
+                <li><a href="">Курсы валют</a></li>
+                <li><a href="">Реквизиты</a></li>
+                <li><a href="">Вакансии</a></li>
+                <li><a href="">Условия обслуживания</a></li>
+                <li><a href="">Новости Банка</a></li>
+                <li><a href="">Реализация залогового имущества</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
